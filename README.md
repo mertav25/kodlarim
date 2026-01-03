@@ -40,5 +40,15 @@ alfabe.sort() #alfabeyi sıraladım
 print(alfabe)
 
 #listeye manuel eleman eklemek
+sayilistem=[5,8]
+sayilistem+=[7]
+print(sayilistem)
+#dikkat köşeli parantez ekleyerek kullanmak zorundayım yoksa hata verir sayilistem+7 hata verir
+print(sayilistem.reverse())#listeyi ters çevirir
+
+
+
+
+
 
 sayilistem=[5,8]

@@ -1,0 +1,31 @@
+#String veri tipi karakterler dizisidir.Herhangi bir cümle veya mesaj yazılabilir.
+#Çift tırnak ya da tek tırnakla tanımlanabilir
+isim="Mert"
+soyisim='Avcı'
+print(isim)
+print(soyisim)#print fonksiyonu değişkeni vs yazdırır.
+
+#Üç tırnakla birden fazla satırda yazılan ifadeleri yazıldığı gibi almayı sağlar.Boşluk algılama
+
+metin="""İstediğim
+gibi
+yazarım
+"""
+
+print('Merhaba Mert\'in öğretmeni')#\ sayesinde kaçış yani stringin içinde bir şey olduğunu algılamamı sağladı
+
+print(metin)
+#string birleştirme
+strtoplam=isim+" "+soyisim
+#iki veya daha fazla stringi toplayabilirim
+print(strtoplam)
+#formatlama :başına f getirerek stringin içinde değişken kullanabilirim
+print(f"Merhaba ben {isim}")
+
+print("Mert","Bey","buraya gel",sep="-")#sep parametresi parametreyleri neyle belirleyeceğimizi belirler
+print("Merhaba\nNasılsın")#\n alt satıra inmeyi sağlayan kaçış karakteridir
+print("Merhaba sana\b")#\b backspace dir son karakteri siler
+print("Ben\t Mert")#Bir tab boşluk sağlayan kaçış karakteridir
+
+#Pythonda diğer veri tiplerinden farklı olarak stringi tam sayıyla çarpabiliriz
+print("SELAM"*10)
